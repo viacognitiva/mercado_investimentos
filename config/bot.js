@@ -31,7 +31,7 @@ var request = require('request');
         , version: 'v1'
     });
     // check if the workspace ID is specified in the environment
-    conversationWorkspace = "739e3c8f-ac27-47f2-bfd3-8cef1256eede";
+    conversationWorkspace = "db8ff915-cd74-4696-917e-c60fc2216a51";
     // if not, look it up by name or create one
 // Allow clients to interact
 

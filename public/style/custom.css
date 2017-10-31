@@ -11,10 +11,9 @@
    padding: 20px 0;
   }
   .box-header .box-title{
-      color:#3BBAB5;
-  }
-  .box.box-primary{
-    border:1px solid #f2f2f2;
+      color:#fff;
+      font-size:20px;
+      font-weight:bold;
   }
   .box{
       background-color: rgba(255, 255, 255, 0.22);
@@ -75,14 +74,15 @@
   .direct-chat-msg{
     margin-bottom:0;
   }
-  //.direct-chat-primary .right > .direct-chat-text{
-  //   background: #7e7e7e;
-  //    border-color: #7e7e7e;
-  //}
-  //.direct-chat-primary .right > .direct-chat-text::after,
-  //.direct-chat-primary .right > .direct-chat-text::before{
-  // border-left-color: #7e7e7e;
-  //}
+  .direct-chat-primary .right > .direct-chat-text{
+     background: #01B1AF;
+      border-color: #01B1AF;
+  }
+  .direct-chat-primary .right > .direct-chat-text::after,
+  .direct-chat-primary .right > .direct-chat-text::before{
+   border-left-color: #01B1AF;
+  }
+
   @media(max-width: 1000px) {
     .content { width: 90%; }
   }
